@@ -73,7 +73,7 @@ a {
     content: "";
     position: absolute;
     width: calc(100% + 10px);
-    height: 35%;
+    height: 40%;
     background-color: var(--primaryBackgroundColor);
     border-left: 2px solid var(--primaryIconColor);
     right: -13px;
@@ -143,13 +143,13 @@ a {
 }*/
 
 .main-container {
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
     .main-container{
-        width:90%;
+        width:100%;
     }
 }
 
